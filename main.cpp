@@ -106,6 +106,8 @@ int main(int argc, char** argv)
 
 	printf_s("%s\n", to);
 
+	delete[] hex;
+
 	iconv_close(iv);
 
 	return 0;
