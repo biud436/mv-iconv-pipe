@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 	if(argc < 2) 
 		from = "\xB3\xAA\xB4\xAE\xB0\xED\xB5\xF1\x00\x00";
 	else
-		from = argv[0];
+		from = argv[1];
 
 	char to[1024] = { 0x00, };
 	iconv_t iv = nullptr;
